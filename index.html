@@ -1,22 +1,68 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>zsapping website</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <header>
-    <h1>zsapping</h1>
-  </header>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="theme-color" content="#07070A" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <div class="logo">
-    <img src="img/logo.webp" alt="Logo">
-  </div>
+    <title>zsapping.net — Education and services for freedom tech</title>
+    <meta
+      name="description"
+      content="zsapping.net offers education and services for freedom tech — Bitcoin fundamentals, Nostr fundamentals, and Nostr relay infrastructure."
+    />
+    <link rel="canonical" href="https://www.zsapping.net/" />
 
-  <footer>
-    <p>&copy; 2024 zsapping. All rights reserved.</p>
-  </footer>
-</body>
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="zsapping.net" />
+    <meta property="og:title" content="zsapping.net — Education and services for freedom tech" />
+    <meta
+      property="og:description"
+      content="zsapping.net offers education and services for freedom tech — Bitcoin fundamentals, Nostr fundamentals, and Nostr relay infrastructure."
+    />
+    <meta property="og:url" content="https://www.zsapping.net/" />
+    <meta property="og:image" content="https://www.zsapping.net/og-image.webp" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="en" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="zsapping.net — Education and services for freedom tech" />
+    <meta
+      name="twitter:description"
+      content="zsapping.net offers education and services for freedom tech — Bitcoin fundamentals, Nostr fundamentals, and Nostr relay infrastructure."
+    />
+    <meta name="twitter:image" content="https://www.zsapping.net/og-image.webp" />
+
+    <!-- JSON-LD: Organization -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "zsapping.net",
+        "url": "https://www.zsapping.net",
+        "logo": "https://www.zsapping.net/icon-512.png",
+        "description": "Education and services for freedom tech."
+      }
+    </script>
+
+    <!-- JSON-LD: WebSite -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "zsapping.net",
+        "url": "https://www.zsapping.net",
+        "inLanguage": "en"
+      }
+    </script>
+  </head>
+  <body class="bg-background font-body text-on-surface overflow-x-hidden antialiased">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>

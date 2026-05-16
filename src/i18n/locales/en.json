@@ -1,0 +1,146 @@
+{
+  "brand": "zsapping",
+  "brandSuffix": ".net",
+
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact",
+    "menuOpen": "Open menu",
+    "menuClose": "Close menu"
+  },
+
+  "footer": {
+    "tagline": "Education and services for freedom tech.",
+    "columns": {
+      "site": "Site",
+      "services": "Services",
+      "legal": "Legal"
+    },
+    "services": {
+      "bitcoin": "Bitcoin fundamentals",
+      "nostr": "Nostr fundamentals",
+      "relay": "Nostr relay"
+    },
+    "legal": {
+      "privacy": "Privacy",
+      "terms": "Terms"
+    },
+    "copyright": "© {{year}} zsapping.net"
+  },
+
+  "hero": {
+    "eyebrow": "Freedom tech",
+    "headline": {
+      "lead": "Education and services for",
+      "accent": "freedom tech."
+    },
+    "subhead": "Independent guidance on Bitcoin and Nostr, plus the relay infrastructure to run on top of them.",
+    "ctaPrimary": "Explore services",
+    "ctaSecondary": "Get in touch"
+  },
+
+  "pages": {
+    "home": {
+      "title": "zsapping.net — Education and services for freedom tech",
+      "description": "Independent education and services around Bitcoin, Nostr, and the relay infrastructure that powers them."
+    },
+
+    "services": {
+      "title": "Services — zsapping.net",
+      "description": "Bitcoin fundamentals, Nostr fundamentals, and Nostr relay services from zsapping.net.",
+      "eyebrow": "What we offer",
+      "headline": "Services for the open internet",
+      "subhead": "Three focused offerings — pick the one that fits the question you're trying to answer.",
+      "items": {
+        "bitcoin": {
+          "name": "Bitcoin fundamentals",
+          "summary": "A grounded introduction to Bitcoin — sound money, self-custody, and the network's design — for individuals and small teams who want clarity instead of hype."
+        },
+        "nostr": {
+          "name": "Nostr fundamentals",
+          "summary": "Understand the Nostr protocol from first principles: keys, events, relays, and clients — what they are, how they fit together, and how to build on them."
+        },
+        "relay": {
+          "name": "Nostr relay",
+          "summary": "A managed Nostr relay you can rely on — operated transparently, monitored continuously, and tuned for performance under real-world load."
+        }
+      }
+    },
+
+    "about": {
+      "title": "About — zsapping.net",
+      "description": "About zsapping.net — independent education and infrastructure for freedom tech.",
+      "eyebrow": "About",
+      "headline": "Quiet work on freedom tech.",
+      "body": {
+        "p1": "zsapping.net exists to make freedom tech approachable — without the noise, the speculation, or the cliques.",
+        "p2": "The work is split between education and infrastructure: helping people understand Bitcoin and Nostr well enough to make their own decisions, and operating the kind of relay infrastructure those decisions rely on.",
+        "p3": "There is no team page, no roadmap deck, no funding round. Just careful work on a small set of things, done in the open."
+      }
+    },
+
+    "contact": {
+      "title": "Contact — zsapping.net",
+      "description": "Get in touch with zsapping.net about education or relay services.",
+      "eyebrow": "Get in touch",
+      "headline": "Let's talk.",
+      "body": "Questions about Bitcoin or Nostr fundamentals, or about relay services? Send an email.",
+      "email": "hello@zsapping.net",
+      "emailCta": "Email us"
+    },
+
+    "privacy": {
+      "title": "Privacy — zsapping.net",
+      "description": "Privacy policy for zsapping.net.",
+      "headline": "Privacy policy",
+      "updated": "Last updated 2026-05-16",
+      "body": {
+        "intro": "zsapping.net is a small, content-driven website. We collect as little as possible.",
+        "what": {
+          "h": "What we collect",
+          "p": "We do not run any analytics or tracking scripts on this site. Standard server logs may record an IP address and request metadata for short periods to operate the service and detect abuse."
+        },
+        "email": {
+          "h": "Email",
+          "p": "If you email us, we keep the email so we can respond. We don't add you to any mailing list."
+        },
+        "cookies": {
+          "h": "Cookies",
+          "p": "We don't set tracking cookies. Your browser may store a language preference locally so the site remembers it on your next visit."
+        },
+        "contact": {
+          "h": "Questions",
+          "p": "If you have any privacy questions, email hello@zsapping.net."
+        }
+      }
+    },
+
+    "terms": {
+      "title": "Terms — zsapping.net",
+      "description": "Terms of service for zsapping.net.",
+      "headline": "Terms of service",
+      "updated": "Last updated 2026-05-16",
+      "body": {
+        "intro": "By using zsapping.net, you agree to the following terms. They are intentionally short.",
+        "use": {
+          "h": "Acceptable use",
+          "p": "Use the site and any services we provide lawfully. Don't attempt to disrupt or abuse our infrastructure."
+        },
+        "content": {
+          "h": "Content",
+          "p": "Educational content on this site is provided in good faith and for general information. It is not financial, legal, or tax advice."
+        },
+        "warranty": {
+          "h": "No warranty",
+          "p": "Services are provided as-is, without warranty of any kind. We are not liable for losses arising from your use of the site or services."
+        },
+        "changes": {
+          "h": "Changes",
+          "p": "We may update these terms over time. The latest version always lives at this URL."
+        }
+      }
+    }
+  }
+}
